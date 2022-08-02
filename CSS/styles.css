@@ -50,6 +50,10 @@ header{
     display: inline-flex;
 }
 
+.profile img{
+    height: 50px;
+}
+
 .home_headline{
     margin-top: 150px;
     margin-left: 120px;
