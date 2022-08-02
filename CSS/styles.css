@@ -50,8 +50,8 @@ header{
     display: inline-flex;
 }
 
-.profile img{
-    height: 60px;
+.profile a img{
+    height: 50px;
 }
 
 .home_headline{
