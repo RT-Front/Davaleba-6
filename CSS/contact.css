@@ -1,0 +1,188 @@
+main{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1{
+    margin-left: 120px;
+    margin-top: 165px;
+}
+
+.contact_time{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.working_days_time{
+    margin-top: 30px;
+    display: flex;
+}
+
+.working_time{
+    margin-left: 10px;
+}
+
+.working_days_time2{
+    margin-top: 10px;
+    display: flex;
+    align-self: center;
+    margin-left: 155px;
+}
+
+
+.contact_container{
+    margin-top: 100px;
+    width: 1240px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.name_surname p{
+    margin-bottom: 15px;
+}
+
+.name_surname{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email_repeat{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.star{
+    color: red;
+}
+
+.email2{
+    margin-bottom: 16px;
+}
+
+.email_star{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+
+main textarea{
+    width: 525px;
+    height: 65px;
+    border-radius: 10px;
+    resize: none;
+    border: 1px solid #75464A;
+}
+
+
+.locations{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.map{
+    width: 588px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.tell_us_txt{
+    width: 588px;
+    height: 400px;
+    margin-top: 20px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+
+main .checkbox{
+    height: 25px;
+    width: 25px;
+}
+.privacy_policy{
+    display: flex;
+}
+
+.terms{
+    color: blue;
+}
+
+.contact_container p{
+    font-size: 16px;
+    font-family: 'cinzel_regular';
+}
+
+
+.contact_button{
+    width: 224px;
+    height: 64px;
+    font-size: 20px;
+    font-family: 'cinzel_bold';
+    color: white;
+    background-color: #75464A;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 82.5px;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'cinzel_medium';
+    src: url(../fonts/Cinzel-Medium.ttf);
+  }
+  @font-face {
+    font-family: 'cinzel_black';
+    src: url(../fonts/Cinzel-Medium.ttf);
+  }
+  @font-face {
+    font-family: 'cinzel_medium';
+    src: url(../fonts/Cinzel-Black.ttf);
+  }
+  @font-face {
+    font-family: 'cinzel_regular';
+    src: url(../fonts/Cinzel-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'cinzel_bold';
+    src: url(../fonts/Cinzel-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'opensans_semibold';
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: 'opensans_regular';
+    src: url(../fonts/OpenSans-Regular.ttf);
+  }

@@ -1,0 +1,113 @@
+.faq:active{
+  font-family: 'cinzel_bold';
+}
+
+main{
+  margin-top: 170px;
+  margin-left: 220px;
+}
+
+main h1{
+  margin-left: 15px;
+  font-family: 'cinzel_bold';
+  color: #D9D9D9;
+}
+
+
+.faq_text{
+  margin-top: 70px;
+  width: 1000px;
+}
+
+.faq_text div{
+  margin-top: 144px;
+}
+
+.faq_text h3{
+  font-family: 'opensans_semibold';
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.faq_text img{
+  margin-top: 21px;
+}
+
+.faq_text p{
+  margin-top: 45px;
+  font-size: 18px;
+  font-family: 'opensans_regular';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'cinzel_medium';
+  src: url(../fonts/Cinzel-Medium.ttf);
+}
+@font-face {
+  font-family: 'cinzel_black';
+  src: url(../fonts/Cinzel-Medium.ttf);
+}
+@font-face {
+  font-family: 'cinzel_medium';
+  src: url(../fonts/Cinzel-Black.ttf);
+}
+@font-face {
+  font-family: 'cinzel_regular';
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
+@font-face {
+  font-family: 'cinzel_bold';
+  src: url(../fonts/Cinzel-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'opensans_semibold';
+  src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'opensans_regular';
+  src: url(../fonts/OpenSans-Regular.ttf);
+}

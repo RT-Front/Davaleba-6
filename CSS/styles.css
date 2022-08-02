@@ -1,0 +1,292 @@
+header{
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5EFEF;
+}
+
+.navigation_1{
+    color: #75464A;
+    font-family: 'cinzel_regular';
+}
+
+
+.navigation_1 ul li:not(:last-child){
+    margin-right: 48px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header_ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.logo{
+    height: 35px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_1{
+    display: inline-block;
+    font-family: 'cinzel_regular';
+}
+.logo_2{
+    display: inline-block;
+    font-family: 'cinzel_black';
+    font-weight: 900;
+    margin-right: 7px;
+}
+
+.logo_img{
+    height: 40px;
+    display: inline-flex;
+}
+
+.home_headline{
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.headline{
+    font-family: 'cinzel_bold';
+    font-size: 18px;
+}
+
+.cards{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    text-transform:uppercase;
+}
+
+.cards img{
+    height: 300px;
+    margin-top: 7%;
+    align-self: center;
+}
+
+.card_1{
+    height: 470px;
+    width: 300px;
+    background-color: #F7F5F5;;
+    border: 1px solid #75464A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title_price{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_1_title{
+    font-size: 14px;
+    font-family: 'cinzel_bold';
+}
+
+.price{
+    font-family: 'cinzel_regular';
+    font-size: 14px;
+}
+
+
+
+.quantity{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+.new{
+    color: #FF0000;
+    text-decoration: underline;
+    font-family: 'cinzel_bold';
+}
+
+
+.stock{
+    text-decoration: underline;
+    font-family: 'cinzel_regular';
+}
+
+
+.card_button{
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-transform:uppercase;
+    background-color: #3F3232;
+    color: white;
+    font-family: 'cinzel_bold';
+    margin-top: 20px;
+    align-self: center;
+    border: 0px;
+}
+
+.low_button{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffff;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #3F3232;
+    font-family: 'cinzel_bold';
+    padding: 20px 50px;
+    margin-top: 100px;
+    margin-left: 79%;
+}
+
+
+
+
+
+
+
+footer{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    background-color: #F5EFEF;
+}
+
+.footer_nav{
+    margin-top: 50px;
+}
+
+.footer_text{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'cinzel_regular';
+}
+
+.webs{
+    margin-top: 50px;
+}
+
+.webs ul{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.webs ul li img{
+    height: 30px;
+}
+
+
+.help{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'cinzel_regular';
+    font-size: 14px;
+    color: #75464A;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.help :not(:first-child){
+    margin-top: 25px;
+}
+
+.footer_contact{
+    font-family: 'cinzel_regular';
+    font-size: 14px;
+    color: #75464A;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.footer_contact div{
+    display: flex;
+    align-items: center;
+}
+
+.footer_contact div:not(:first-child){
+    margin-top: 30px;
+}
+.footer_contact img{
+    height: 25px;
+    margin-right: 20px;
+}
+
+.email{
+    text-decoration: underline;
+}
+
+.active{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'cinzel_medium';
+    src: url(../fonts/Cinzel-Medium.ttf);
+}
+@font-face {
+    font-family: 'cinzel_black';
+    src: url(../fonts/Cinzel-Medium.ttf);
+}
+@font-face {
+    font-family: 'cinzel_medium';
+    src: url(../fonts/Cinzel-Black.ttf);
+}
+@font-face {
+    font-family: 'cinzel_regular';
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+@font-face {
+    font-family: 'cinzel_bold';
+    src: url(../fonts/Cinzel-Bold.ttf);
+}

@@ -1,0 +1,101 @@
+main{
+    text-transform: uppercase;
+    margin-bottom: 410px;
+}
+
+main h1{
+    margin-top: 160px;
+    margin-left: 120px;
+    font-size: 18px;
+    font-family: 'cinzel_bold';
+}
+
+.content{
+    width: 1230px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+
+.content_1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.content_2{
+    margin-left: 30px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.content p{
+    margin-top: 65px;
+    font-family: 'cinzel_regular';
+    font-size: 18px;
+    width: 700px;
+}
+.content img{
+    height: 475px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'cinzel_medium';
+    src: url(../fonts/Cinzel-Medium.ttf);
+  }
+  @font-face {
+    font-family: 'cinzel_black';
+    src: url(../fonts/Cinzel-Medium.ttf);
+  }
+  @font-face {
+    font-family: 'cinzel_medium';
+    src: url(../fonts/Cinzel-Black.ttf);
+  }
+  @font-face {
+    font-family: 'cinzel_regular';
+    src: url(../fonts/Cinzel-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'cinzel_bold';
+    src: url(../fonts/Cinzel-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'opensans_semibold';
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: 'opensans_regular';
+    src: url(../fonts/OpenSans-Regular.ttf);
+  }
